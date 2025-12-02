@@ -23,7 +23,7 @@ Aseguraos de tener lo siguiente:
 - Visual Studio Code instalado.
 - Python 3 instalado. Si no lo tenéis, podéis descargarlo desde:  
   https://www.python.org/downloads/
-- Extensión **Qodo** (icono de oso hormiguero) instalada en VSCode.
+- Extensión **Qodo** (icono de oso hormiguero) instalada en VSCode. Usar vuestro usuario de GitHub para mayor facilidad
 - Haber **forkeado** este repositorio:  
   https://github.com/davidabuinESI/LucesySombrasMantenimientoLLM.git  
   Añadiéndole vuestro nombre.
