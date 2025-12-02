@@ -35,31 +35,44 @@ Aseguraos de tener lo siguiente:
 
 1. Abrir el repositorio clonado en VSCode.
 2. Crear un archivo Markdown llamado **`AnalisisNombre.md`**, reemplazando *Nombre* por el vuestro.
-3. Realizar un **análisis individual** del archivo `app.py`.  
+3. Realizar un **análisis individual** del archivo `app.py`, dicho análisis quedará en el documnto .md.  
    En vuestro Markdown deberéis anotar los cambios y mejoras que aplicaríais al código.
-4. Ejecutar los tests y **apuntar el resultado**.  
+5. Ejecutar los tests y **apuntar el resultado**.  
    Para ello, basta con ejecutar el archivo `app_test.py`.
-5. Abrir el chat de Qodo e insertar el siguiente mensaje (en inglés, para obtener mejores resultados):
+6. Abrir el chat de Qodo e insertar el siguiente mensaje (en inglés, para obtener mejores resultados):
 
     Refactor this code to make it clean, use descriptive variable names, add Type Hints and docstrings. Refactor and improve this code in a new file called "RefactoringName.py".
 *(cambiar "Name" por vuestro nombre)*
 
-6. Comparar `app.py` con `RefactoringName.py`.  
+7. Comparar `app.py` con `RefactoringName.py`.  
 Debéis observar las diferencias entre vuestras ideas y las modificaciones propuestas por la IA.
-7. Añadir a vuestro Markdown las principales diferencias encontradas entre vuestro análisis y la refactorización de la IA.
-8. Ejecutar nuevamente el test.  
+8. Añadir a vuestro Markdown las principales diferencias encontradas entre vuestro análisis y la refactorización de la IA.
+9. Ejecutar nuevamente el test.  
 - ¿Habéis obtenido el mismo resultado?  
 - Si no, ¿a qué se debe?  
 Responded a estas preguntas en el Markdown.
 9. Revisar el código refactorizado por la IA e intentar detectar:
 - Modificaciones innecesarias  
 - Introducción de bugs lógicos  
-- Deuda técnica añadida por la refactorización  
+- Deuda técnica añadida por la refactorización
+- Entre otros (revisar guía más abajo)
 10. Subir a vuestro repositorio forkeado:
  - El archivo Markdown  
  - El archivo generado por la IA (**`RefactoringName.py`**)
 
 ---
+
+
+## Tabla de Categorías de Fallos en Software
+
+| **Categoría de Fallo** | **Descripción** | **Ejemplos Comunes** |
+|------------------------|------------------|------------------------|
+| **1. Fallos de Lógica y Errores de Programación (Bugs)** | Errores que causan un comportamiento incorrecto o la detención del programa. | - Errores de ejecución (Runtime Errors): divisiones por cero, null pointer exceptions.<br>- Errores lógicos: el programa se ejecuta, pero produce resultados incorrectos (por ejemplo, una fórmula matemática mal implementada). |
+| **2. Fallos de Diseño y Arquitectura** | Problemas que afectan la estructura, escalabilidad y flexibilidad del sistema. | - Alto acoplamiento: módulos demasiado interconectados.<br>- Baja cohesión: una clase o módulo hace demasiadas cosas no relacionadas.<br>- Diseño rígido: difícil añadir nuevas características o modificar el sistema. |
+| **3. Fallos de Mantenibilidad y Documentación** | Problemas que dificultan entender, modificar o extender el código. | - Código duplicado: aumenta riesgo de errores.<br>- Falta de pruebas: ausencia de tests unitarios o de integración.<br>- Documentación inexistente u obsoleta: complica comprender el sistema. |
+| **4. Fallos de Rendimiento y Recursos** | Problemas que no rompen el código, pero lo hacen lento o inestable en producción. | - Ineficiencia algorítmica: algoritmos lentos para grandes volúmenes de datos.<br>- Fugas de memoria (memory leaks).<br>- Consultas a bases de datos ineficientes: falta de índices, consultas mal diseñadas. |
+
+
 
 # 📦 Archivos a Entregar
 
